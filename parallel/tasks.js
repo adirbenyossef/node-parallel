@@ -1,0 +1,1 @@
+export const asyncTasks = [1,2,3].map(num => new Promise((resolve) => setTimeout(() => resolve(`Result + ${num}`), 500)));
